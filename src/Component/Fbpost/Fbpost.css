@@ -1,12 +1,13 @@
-/* .border{
-    border: 1px solid rgba(128, 128, 128, 0.5);
-    height: max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 10px;
-} */
+.border-custom{
+    border: 1px solid rgba(211, 211, 211, 0.9);
+    border-left-color: white;
+    border-right-color: white;
+}
 .flex{
     display: flex;
+}
+.align-center{
+    align-items: center;
 }
 .flex-1{
     flex: 0.1
@@ -17,12 +18,48 @@
 .marg-left{
     margin-left: 10px;
 }
-/* .center-content{
+.center-content{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-} */
+}
 .mx-6{
     margin-left : 2.3rem;
+}
+.my-7{
+    margin-top: 20px;
+    margin-bottom : 0;
+}
+.my-8{
+    margin-top: 6rem;
+}
+.pad-0{
+    padding-top : 0;
+}
+.font-1{
+    font-size: 1.6em;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.btn-width{
+    width: 100px;
+}
+.btn-border{
+    padding: 6px;
+    width: max-content;
+}
+.btn-border:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pad-1{
+    padding-right: 6px;
+}
+.liked{
+    text-decoration: underline;
+    color: blue;
 }
